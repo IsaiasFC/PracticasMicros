@@ -1,0 +1,295 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18877 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"49 C:\Users\drasf\MPLABXProjects\propeller3.7.X\main.c
+[v _interrupcion interrupcion `II(v  1 e 1 0 ]
+"78
+[v _off off `(v  1 e 1 0 ]
+"92
+[v _espera espera `(v  1 e 1 0 ]
+"128
+[v _leyenda leyenda `(v  1 e 1 0 ]
+"156
+[v _cero cero `(v  1 e 1 0 ]
+"172
+[v _uno uno `(v  1 e 1 0 ]
+"185
+[v _dos dos `(v  1 e 1 0 ]
+"201
+[v _tres tres `(v  1 e 1 0 ]
+"220
+[v _cuatro cuatro `(v  1 e 1 0 ]
+"236
+[v _cinco cinco `(v  1 e 1 0 ]
+"252
+[v _seis seis `(v  1 e 1 0 ]
+"268
+[v _siete siete `(v  1 e 1 0 ]
+"284
+[v _ocho ocho `(v  1 e 1 0 ]
+"300
+[v _nueve nueve `(v  1 e 1 0 ]
+"316
+[v _puntos puntos `(v  1 e 1 0 ]
+"326
+[v _numero numero `(v  1 e 1 0 ]
+"364
+[v _impresiont impresiont `(v  1 e 1 0 ]
+"414
+[v _main main `(v  1 e 1 0 ]
+[s S136 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"368 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f18877.h
+[u S141 . 1 `S136 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES141  1 e 1 @11 ]
+"388
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"512
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"574
+[v _PORTD PORTD `VEuc  1 e 1 @15 ]
+"674
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"798
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"860
+[v _TRISD TRISD `VEuc  1 e 1 @20 ]
+[s S44 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1095
+[u S53 . 1 `S44 1 . 1 0 ]
+[v _LATCbits LATCbits `VES53  1 e 1 @24 ]
+"6493
+[v _TMR1 TMR1 `VEus  1 e 2 @524 ]
+"6790
+[v _T1CON T1CON `VEuc  1 e 1 @526 ]
+[s S149 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"6821
+[s S155 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S162 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S166 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S169 . 1 `S149 1 . 1 0 `S155 1 . 1 0 `S162 1 . 1 0 `S166 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES169  1 e 1 @526 ]
+[s S90 . 1 `uc 1 CS 1 0 :4:0 
+]
+"7275
+[s S92 . 1 `uc 1 T1CS0 1 0 :1:0 
+`uc 1 T1CS1 1 0 :1:1 
+`uc 1 T1CS2 1 0 :1:2 
+`uc 1 T1CS3 1 0 :1:3 
+]
+[s S97 . 1 `uc 1 CS0 1 0 :1:0 
+`uc 1 CS1 1 0 :1:1 
+`uc 1 CS2 1 0 :1:2 
+`uc 1 CS3 1 0 :1:3 
+]
+[u S102 . 1 `S90 1 . 1 0 `S92 1 . 1 0 `S97 1 . 1 0 ]
+[v _T1CLKbits T1CLKbits `VES102  1 e 1 @529 ]
+[s S20 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"21540
+[u S27 . 1 `S20 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES27  1 e 1 @1808 ]
+[s S119 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR3IE 1 0 :1:2 
+`uc 1 TMR4IE 1 0 :1:3 
+`uc 1 TMR5IE 1 0 :1:4 
+`uc 1 TMR6IE 1 0 :1:5 
+]
+"21962
+[u S126 . 1 `S119 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES126  1 e 1 @1818 ]
+[s S66 . 1 `uc 1 HFFRQ 1 0 :3:0 
+]
+"23912
+[s S68 . 1 `uc 1 HFFRQ0 1 0 :1:0 
+`uc 1 HFFRQ1 1 0 :1:1 
+`uc 1 HFFRQ2 1 0 :1:2 
+]
+[u S72 . 1 `S66 1 . 1 0 `S68 1 . 1 0 ]
+[v _OSCFRQbits OSCFRQbits `VES72  1 e 1 @2195 ]
+"33602
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"34842
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"35462
+[v _ANSELD ANSELD `VEuc  1 e 1 @8025 ]
+"47 C:\Users\drasf\MPLABXProjects\propeller3.7.X\main.c
+[v _cmils cmils `i  1 e 2 0 ]
+[v _cseg cseg `i  1 e 2 0 ]
+[v _cmin cmin `i  1 e 2 0 ]
+[v _chr chr `i  1 e 2 0 ]
+"48
+[v _unidades unidades `i  1 e 2 0 ]
+[v _decenas decenas `i  1 e 2 0 ]
+"414
+[v _main main `(v  1 e 1 0 ]
+{
+"448
+[v main@v v `i  1 a 2 18 ]
+"490
+} 0
+"128
+[v _leyenda leyenda `(v  1 e 1 0 ]
+{
+"154
+} 0
+"364
+[v _impresiont impresiont `(v  1 e 1 0 ]
+{
+[v impresiont@hr hr `i  1 p 2 8 ]
+[v impresiont@min min `i  1 p 2 10 ]
+[v impresiont@seg seg `i  1 p 2 12 ]
+"413
+} 0
+"316
+[v _puntos puntos `(v  1 e 1 0 ]
+{
+"324
+} 0
+"326
+[v _numero numero `(v  1 e 1 0 ]
+{
+[v numero@n n `i  1 p 2 3 ]
+"362
+} 0
+"172
+[v _uno uno `(v  1 e 1 0 ]
+{
+"183
+} 0
+"201
+[v _tres tres `(v  1 e 1 0 ]
+{
+"218
+} 0
+"268
+[v _siete siete `(v  1 e 1 0 ]
+{
+"282
+} 0
+"252
+[v _seis seis `(v  1 e 1 0 ]
+{
+"266
+} 0
+"284
+[v _ocho ocho `(v  1 e 1 0 ]
+{
+"298
+} 0
+"300
+[v _nueve nueve `(v  1 e 1 0 ]
+{
+"314
+} 0
+"185
+[v _dos dos `(v  1 e 1 0 ]
+{
+"199
+} 0
+"220
+[v _cuatro cuatro `(v  1 e 1 0 ]
+{
+"234
+} 0
+"236
+[v _cinco cinco `(v  1 e 1 0 ]
+{
+"250
+} 0
+"156
+[v _cero cero `(v  1 e 1 0 ]
+{
+"170
+} 0
+"78
+[v _off off `(v  1 e 1 0 ]
+{
+"80
+} 0
+"92
+[v _espera espera `(v  1 e 1 0 ]
+{
+"94
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 7 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 4 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 6 ]
+"53
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+"42
+} 0
+"49 C:\Users\drasf\MPLABXProjects\propeller3.7.X\main.c
+[v _interrupcion interrupcion `II(v  1 e 1 0 ]
+{
+"76
+} 0
