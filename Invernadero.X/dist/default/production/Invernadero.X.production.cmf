@@ -1,0 +1,1700 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\Invernadero.X.production.obj
+cinit CODE 0 79 79 35 2
+text1 CODE 0 C9D C9D 18C 2
+text2 CODE 0 13E5 13E5 F 2
+text3 CODE 0 1460 1460 2D 2
+text4 CODE 0 14BF 14BF 35 2
+text5 CODE 0 E29 E29 1D7 2
+text6 CODE 0 ACE ACE D9 2
+text7 CODE 0 156B 156B 3C 2
+text8 CODE 0 165E 165E 74 2
+text9 CODE 0 1422 1422 1C 2
+text10 CODE 0 A1A A1A B4 2
+text11 CODE 0 BA7 BA7 F6 2
+text12 CODE 0 152F 152F 3C 2
+text13 CODE 0 143E 143E 22 2
+text14 CODE 0 825 825 9F 2
+text15 CODE 0 8C4 8C4 A9 2
+text16 CODE 0 15F9 15F9 65 2
+text17 CODE 0 148D 148D 32 2
+text18 CODE 0 7AA 7AA 52 2
+text19 CODE 0 14F4 14F4 3B 2
+text20 CODE 0 1767 1767 99 2
+text21 CODE 0 96D 96D AD 2
+text22 CODE 0 16D2 16D2 95 2
+text24 CODE 0 1407 1407 1B 2
+text25 CODE 0 15A7 15A7 52 2
+text26 CODE 0 802 802 23 2
+maintext CODE 0 AE AE 6FC 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 20 20 47 1
+cstackBANK1 BANK1 1 C2 C2 15 1
+cstackBANK2 BANK2 1 151 151 8 1
+inittext CODE 0 13D3 13D3 6 2
+stringtext1 STRCODE 0 1839 1839 A 2
+stringtext2 STRCODE 0 1800 1800 2B 2
+stringtext3 STRCODE 0 182B 182B E 2
+intentry CODE 0 4 4 73 2
+bssBANK0 BANK0 1 67 67 2 1
+bssBANK1 BANK1 1 A0 A0 22 1
+bssBANK2 BANK2 1 120 120 25 1
+idataBANK0 CODE 0 7FC 7FC 2 2
+idataBANK1 CODE 0 13F4 13F4 13 2
+idataBANK2 CODE 0 13D9 13D9 C 2
+swtext1 CONST 0 1000 1000 14 2
+dataBANK0 BANK0 1 69 69 2 1
+dataBANK1 BANK1 1 D7 D7 13 1
+dataBANK2 BANK2 1 145 145 C 1
+clrtext CODE 0 13CD 13CD 6 2
+$C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 77 77 2 2
+config CONFIG 0 8007 8007 5 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 6B-6F 1
+RAM EA-EF 1
+RAM 159-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-66F 1
+RAM 6A0-6EF 1
+RAM 720-76F 1
+RAM 7A0-7EF 1
+RAM 820-86F 1
+RAM 8A0-8EF 1
+RAM 920-96F 1
+RAM 9A0-9EF 1
+RAM A20-A6F 1
+RAM AA0-AEF 1
+RAM B20-B6F 1
+RAM BA0-BEF 1
+RAM C20-C6F 1
+RAM CA0-CEF 1
+RAM D20-D6F 1
+RAM DA0-DEF 1
+RAM E20-E6F 1
+RAM EA0-EEF 1
+RAM F20-F6F 1
+RAM FA0-FEF 1
+RAM 1020-106F 1
+RAM 10A0-10EF 1
+RAM 1120-116F 1
+RAM 11A0-11EF 1
+RAM 1220-126F 1
+RAM 12A0-12EF 1
+RAM 1320-136F 1
+RAM 13A0-13EF 1
+RAM 1420-146F 1
+RAM 14A0-14EF 1
+RAM 1520-156F 1
+RAM 15A0-15EF 1
+RAM 1620-166F 1
+RAM 16A0-16EF 1
+RAM 1720-176F 1
+RAM 17A0-17EF 1
+RAM 1820-186F 1
+RAM 18A0-18EF 1
+RAM 1920-196F 1
+BANK0 6B-6F 1
+BANK1 EA-EF 1
+BANK2 159-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 2-3 2
+CONST 7FE-801 2
+CONST 1014-13CC 2
+CONST 1843-7FFF 2
+ENTRY 2-3 2
+ENTRY 7FE-801 2
+ENTRY 1014-13CC 2
+ENTRY 1843-7FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-69F 1
+SFR14 700-71F 1
+SFR15 780-79F 1
+SFR16 800-81F 1
+SFR17 880-89F 1
+SFR18 900-91F 1
+SFR19 980-99F 1
+SFR20 A00-A1F 1
+SFR21 A80-A9F 1
+SFR22 B00-B1F 1
+SFR23 B80-B9F 1
+SFR24 C00-C1F 1
+SFR25 C80-C9F 1
+SFR26 D00-D1F 1
+SFR27 D80-D9F 1
+SFR28 E00-E1F 1
+SFR29 E80-E9F 1
+SFR30 F00-F1F 1
+SFR31 F80-F9F 1
+SFR32 1000-101F 1
+SFR33 1080-109F 1
+SFR34 1100-111F 1
+SFR35 1180-119F 1
+SFR36 1200-121F 1
+SFR37 1280-129F 1
+SFR38 1300-131F 1
+SFR39 1380-139F 1
+SFR40 1400-141F 1
+SFR41 1480-149F 1
+SFR42 1500-151F 1
+SFR43 1580-159F 1
+SFR44 1600-161F 1
+SFR45 1680-169F 1
+SFR46 1700-171F 1
+SFR47 1780-179F 1
+SFR48 1800-181F 1
+SFR49 1880-189F 1
+SFR50 1900-191F 1
+SFR51 1980-19EF 1
+SFR52 1A00-1A6F 1
+SFR53 1A80-1AEF 1
+SFR54 1B00-1B6F 1
+SFR55 1B80-1BEF 1
+SFR56 1C00-1C6F 1
+SFR57 1C80-1CEF 1
+SFR58 1D00-1D6F 1
+SFR59 1D80-1DEF 1
+SFR60 1E00-1E6F 1
+SFR61 1E80-1EEF 1
+SFR62 1F00-1F6F 1
+SFR63 1F80-1FEF 1
+STACK 20D9-2FEF 1
+CODE 2-3 2
+CODE 7FE-801 2
+CODE 1014-13CC 2
+CODE 1843-7FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-66F 1
+BANK13 6A0-6EF 1
+BANK14 720-76F 1
+BANK15 7A0-7EF 1
+BANK16 820-86F 1
+BANK17 8A0-8EF 1
+BANK18 920-96F 1
+BANK19 9A0-9EF 1
+BANK20 A20-A6F 1
+BANK21 AA0-AEF 1
+BANK22 B20-B6F 1
+BANK23 BA0-BEF 1
+BANK24 C20-C6F 1
+BANK25 CA0-CEF 1
+BANK26 D20-D6F 1
+BANK27 DA0-DEF 1
+BANK28 E20-E6F 1
+BANK29 EA0-EEF 1
+BANK30 F20-F6F 1
+BANK31 FA0-FEF 1
+BANK32 1020-106F 1
+BANK33 10A0-10EF 1
+BANK34 1120-116F 1
+BANK35 11A0-11EF 1
+BANK36 1220-126F 1
+BANK37 12A0-12EF 1
+BANK38 1320-136F 1
+BANK39 13A0-13EF 1
+BANK40 1420-146F 1
+BANK41 14A0-14EF 1
+BANK42 1520-156F 1
+BANK43 15A0-15EF 1
+BANK44 1620-166F 1
+BANK45 16A0-16EF 1
+BANK46 1720-176F 1
+BANK47 17A0-17EF 1
+BANK48 1820-186F 1
+BANK49 18A0-18EF 1
+BANK50 1920-196F 1
+BIGRAM 2000-2FEF 1
+EEDATA F000-F0FF 2
+STRCODE 2-3 2
+STRCODE 7FE-801 2
+STRCODE 1014-13CC 2
+STRCODE 1843-7FFF 2
+STRING 2-3 2
+STRING 7FE-801 2
+STRING 1014-13CC 2
+STRING 1843-7FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Invernadero.X.production.obj
+79 cinit CODE >1526:C:\Users\drasf\AppData\Local\Temp\s6n4.
+79 cinit CODE >1529:C:\Users\drasf\AppData\Local\Temp\s6n4.
+79 cinit CODE >1698:C:\Users\drasf\AppData\Local\Temp\s6n4.
+7C cinit CODE >1699:C:\Users\drasf\AppData\Local\Temp\s6n4.
+7D cinit CODE >1700:C:\Users\drasf\AppData\Local\Temp\s6n4.
+80 cinit CODE >1701:C:\Users\drasf\AppData\Local\Temp\s6n4.
+81 cinit CODE >1705:C:\Users\drasf\AppData\Local\Temp\s6n4.
+82 cinit CODE >1706:C:\Users\drasf\AppData\Local\Temp\s6n4.
+83 cinit CODE >1707:C:\Users\drasf\AppData\Local\Temp\s6n4.
+84 cinit CODE >1708:C:\Users\drasf\AppData\Local\Temp\s6n4.
+85 cinit CODE >1709:C:\Users\drasf\AppData\Local\Temp\s6n4.
+86 cinit CODE >1710:C:\Users\drasf\AppData\Local\Temp\s6n4.
+87 cinit CODE >1711:C:\Users\drasf\AppData\Local\Temp\s6n4.
+88 cinit CODE >1712:C:\Users\drasf\AppData\Local\Temp\s6n4.
+89 cinit CODE >1713:C:\Users\drasf\AppData\Local\Temp\s6n4.
+8A cinit CODE >1714:C:\Users\drasf\AppData\Local\Temp\s6n4.
+8D cinit CODE >1718:C:\Users\drasf\AppData\Local\Temp\s6n4.
+8E cinit CODE >1719:C:\Users\drasf\AppData\Local\Temp\s6n4.
+8F cinit CODE >1720:C:\Users\drasf\AppData\Local\Temp\s6n4.
+90 cinit CODE >1721:C:\Users\drasf\AppData\Local\Temp\s6n4.
+91 cinit CODE >1722:C:\Users\drasf\AppData\Local\Temp\s6n4.
+92 cinit CODE >1723:C:\Users\drasf\AppData\Local\Temp\s6n4.
+93 cinit CODE >1724:C:\Users\drasf\AppData\Local\Temp\s6n4.
+94 cinit CODE >1725:C:\Users\drasf\AppData\Local\Temp\s6n4.
+95 cinit CODE >1726:C:\Users\drasf\AppData\Local\Temp\s6n4.
+96 cinit CODE >1727:C:\Users\drasf\AppData\Local\Temp\s6n4.
+99 cinit CODE >1744:C:\Users\drasf\AppData\Local\Temp\s6n4.
+9A cinit CODE >1745:C:\Users\drasf\AppData\Local\Temp\s6n4.
+9B cinit CODE >1749:C:\Users\drasf\AppData\Local\Temp\s6n4.
+9C cinit CODE >1750:C:\Users\drasf\AppData\Local\Temp\s6n4.
+9D cinit CODE >1751:C:\Users\drasf\AppData\Local\Temp\s6n4.
+9E cinit CODE >1752:C:\Users\drasf\AppData\Local\Temp\s6n4.
+9F cinit CODE >1753:C:\Users\drasf\AppData\Local\Temp\s6n4.
+A0 cinit CODE >1754:C:\Users\drasf\AppData\Local\Temp\s6n4.
+A3 cinit CODE >1758:C:\Users\drasf\AppData\Local\Temp\s6n4.
+A4 cinit CODE >1759:C:\Users\drasf\AppData\Local\Temp\s6n4.
+A5 cinit CODE >1760:C:\Users\drasf\AppData\Local\Temp\s6n4.
+A6 cinit CODE >1761:C:\Users\drasf\AppData\Local\Temp\s6n4.
+A7 cinit CODE >1762:C:\Users\drasf\AppData\Local\Temp\s6n4.
+A8 cinit CODE >1763:C:\Users\drasf\AppData\Local\Temp\s6n4.
+AA cinit CODE >1769:C:\Users\drasf\AppData\Local\Temp\s6n4.
+AA cinit CODE >1771:C:\Users\drasf\AppData\Local\Temp\s6n4.
+AB cinit CODE >1772:C:\Users\drasf\AppData\Local\Temp\s6n4.
+AC cinit CODE >1773:C:\Users\drasf\AppData\Local\Temp\s6n4.
+4 intentry CODE >132:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+9 intentry CODE >133:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+C intentry CODE >134:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+14 intentry CODE >135:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+31 intentry CODE >136:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+42 intentry CODE >137:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+5D intentry CODE >138:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+64 intentry CODE >139:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+66 intentry CODE >140:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+6E intentry CODE >141:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+70 intentry CODE >142:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+72 intentry CODE >144:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+802 text26 CODE >122:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+802 text26 CODE >123:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+808 text26 CODE >124:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+808 text26 CODE >128:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+815 text26 CODE >126:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+819 text26 CODE >127:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+81E text26 CODE >124:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+81F text26 CODE >129:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+824 text26 CODE >130:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+15A7 text25 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15A7 text25 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15A9 text25 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15AB text25 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15B0 text25 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15B2 text25 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15B4 text25 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15B9 text25 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15BD text25 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15BF text25 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15C3 text25 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15C5 text25 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15C7 text25 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15CC text25 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15D0 text25 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15D1 text25 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15D6 text25 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15DE text25 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15E2 text25 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15E3 text25 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15E8 text25 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15EC text25 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15EF text25 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+15F4 text25 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+1407 text24 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1407 text24 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1409 text24 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+140B text24 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+140F text24 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1414 text24 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1419 text24 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+141D text24 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+16D2 text22 CODE >150:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+16D4 text22 CODE >151:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+16D6 text22 CODE >152:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+16F7 text22 CODE >153:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1714 text22 CODE >154:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1718 text22 CODE >155:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1720 text22 CODE >156:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1741 text22 CODE >157:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1752 text22 CODE >158:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1756 text22 CODE >159:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+175E text22 CODE >160:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1766 text22 CODE >161:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+96D text21 CODE >52:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+96D text21 CODE >54:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+96F text21 CODE >55:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+970 text21 CODE >56:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+971 text21 CODE >57:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+972 text21 CODE >58:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+973 text21 CODE >59:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+974 text21 CODE >60:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+975 text21 CODE >61:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+976 text21 CODE >62:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+977 text21 CODE >63:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+978 text21 CODE >64:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+979 text21 CODE >65:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+97A text21 CODE >66:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+982 text21 CODE >67:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+98A text21 CODE >68:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+992 text21 CODE >69:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+99A text21 CODE >70:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9A2 text21 CODE >71:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9AA text21 CODE >72:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9B1 text21 CODE >73:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9B1 text21 CODE >74:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9B6 text21 CODE >75:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9BB text21 CODE >76:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9BD text21 CODE >77:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9C1 text21 CODE >78:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9C7 text21 CODE >79:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9C8 text21 CODE >80:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9D0 text21 CODE >72:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9D9 text21 CODE >82:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9DF text21 CODE >83:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9E5 text21 CODE >84:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9E9 text21 CODE >85:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9F0 text21 CODE >86:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+9F8 text21 CODE >87:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+A01 text21 CODE >88:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+A0A text21 CODE >89:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+A11 text21 CODE >90:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+A19 text21 CODE >91:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1767 text20 CODE >136:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1769 text20 CODE >137:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+176B text20 CODE >138:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+178C text20 CODE >139:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+17A9 text20 CODE >140:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+17AD text20 CODE >141:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+17B5 text20 CODE >142:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+17D6 text20 CODE >143:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+17E7 text20 CODE >144:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+17EB text20 CODE >145:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+17F3 text20 CODE >146:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+17FF text20 CODE >147:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+14F4 text19 CODE >115:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+14F6 text19 CODE >118:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+14F7 text19 CODE >120:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+14FA text19 CODE >121:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+14FD text19 CODE >122:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1500 text19 CODE >123:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1505 text19 CODE >125:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1506 text19 CODE >118:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1514 text19 CODE >126:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1518 text19 CODE >127:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1520 text19 CODE >129:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+1529 text19 CODE >130:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+152E text19 CODE >127:C:\Users\drasf\MPLABXProjects\Invernadero.X\flex_lcd.h
+7AA text18 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7AA text18 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7AC text18 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7AE text18 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7B3 text18 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7B5 text18 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7B7 text18 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7BC text18 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7C0 text18 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7C2 text18 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7C6 text18 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7C8 text18 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7CA text18 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7CF text18 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7D3 text18 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7D4 text18 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7D9 text18 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7E1 text18 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7E5 text18 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7E6 text18 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7EB text18 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7EF text18 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7F2 text18 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+7F7 text18 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+1000 swtext1 CONST >53:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+148D text17 CODE >52:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+148D text17 CODE >53:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+148E text17 CODE >55:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+1490 text17 CODE >58:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+1492 text17 CODE >61:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+1494 text17 CODE >64:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+1496 text17 CODE >67:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+1498 text17 CODE >70:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+149A text17 CODE >73:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+149C text17 CODE >76:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+149E text17 CODE >79:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+14A0 text17 CODE >82:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+14A5 text17 CODE >84:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+14A6 text17 CODE >53:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+14B6 text17 CODE >85:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+15F9 text16 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+15F9 text16 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1602 text16 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1609 text16 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+160D text16 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1613 text16 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1618 text16 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+161C text16 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1626 text16 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+162C text16 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+162C text16 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1631 text16 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1633 text16 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1639 text16 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+163F text16 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1641 text16 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1647 text16 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1649 text16 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+1659 text16 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+165C text16 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+165D text16 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+8C4 text15 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+8C4 text15 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+8D4 text15 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+8DB text15 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+8EA text15 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+8F1 text15 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+8F7 text15 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+8FC text15 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+90C text15 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+91C text15 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+920 text15 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+921 text15 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+927 text15 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+928 text15 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+92E text15 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+932 text15 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+938 text15 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+944 text15 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+94A text15 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+94B text15 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+951 text15 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+955 text15 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+825 text14 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+825 text14 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+836 text14 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+840 text14 CODE >51:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+852 text14 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+854 text14 CODE >53:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+85A text14 CODE >54:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+866 text14 CODE >55:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+868 text14 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+86A text14 CODE >57:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+86F text14 CODE >58:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+879 text14 CODE >60:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+881 text14 CODE >61:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+88A text14 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+88E text14 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+898 text14 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+8A0 text14 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+8A2 text14 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+8A2 text14 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+8A6 text14 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+8A9 text14 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+8B4 text14 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+143E text13 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+143E text13 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+1440 text13 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+1442 text13 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+1447 text13 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+1449 text13 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+152F text12 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+152F text12 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+1532 text12 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+1546 text12 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+1548 text12 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+155C text12 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+155E text12 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+1560 text12 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+BA7 text11 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BA7 text11 CODE >90:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BB4 text11 CODE >91:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BC0 text11 CODE >92:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BCF text11 CODE >93:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BD6 text11 CODE >94:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BE5 text11 CODE >96:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BE9 text11 CODE >97:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BEA text11 CODE >98:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BEB text11 CODE >99:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BEC text11 CODE >100:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BED text11 CODE >101:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BEE text11 CODE >102:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BF4 text11 CODE >103:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BF5 text11 CODE >104:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BFB text11 CODE >106:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+BFF text11 CODE >110:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C05 text11 CODE >111:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C07 text11 CODE >112:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C12 text11 CODE >114:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C18 text11 CODE >115:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C1C text11 CODE >113:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C21 text11 CODE >117:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C25 text11 CODE >121:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C2B text11 CODE >122:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C2D text11 CODE >123:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C38 text11 CODE >125:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C3E text11 CODE >126:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C42 text11 CODE >124:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C46 text11 CODE >129:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C48 text11 CODE >131:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C4E text11 CODE >132:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C58 text11 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C5A text11 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C60 text11 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C6A text11 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C6B text11 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C71 text11 CODE >141:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C73 text11 CODE >142:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C79 text11 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C83 text11 CODE >144:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+C85 text11 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+A1A text10 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A1A text10 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A2A text10 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A31 text10 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A40 text10 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A47 text10 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A4C text10 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A5C text10 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A6C text10 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A70 text10 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A71 text10 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A72 text10 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A78 text10 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A7E text10 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A82 text10 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A84 text10 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A8A text10 CODE >138:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A90 text10 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A96 text10 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A9A text10 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+A9E text10 CODE >145:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+AA0 text10 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+AA6 text10 CODE >147:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+AAC text10 CODE >148:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+AB2 text10 CODE >149:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+AB6 text10 CODE >156:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+1422 text9 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1422 text9 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1425 text9 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1427 text9 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+142B text9 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1430 text9 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1435 text9 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+1439 text9 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+165E text8 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+165E text8 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+1677 text8 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+1678 text8 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+167D text8 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+16C4 text8 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+16C5 text8 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\evalpoly.c
+156B text7 CODE >254:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+156B text7 CODE >256:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+1571 text7 CODE >257:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+1577 text7 CODE >258:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+157E text7 CODE >261:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+158B text7 CODE >262:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+1598 text7 CODE >263:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+15A1 text7 CODE >268:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+15A5 text7 CODE >269:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+15A6 text7 CODE >273:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\frexp.c
+ACE text6 CODE >5:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+ACE text6 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+AE5 text6 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+AEA text6 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+AF2 text6 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+AF8 text6 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+AFD text6 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+B05 text6 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+B45 text6 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+B49 text6 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+B6B text6 CODE >35:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\log.c
+E29 text5 CODE >90:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E29 text5 CODE >91:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E2C text5 CODE >93:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E30 text5 CODE >94:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E32 text5 CODE >95:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E34 text5 CODE >96:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E3B text5 CODE >97:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E46 text5 CODE >98:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E51 text5 CODE >99:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E8D text5 CODE >104:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E8F text5 CODE >105:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E93 text5 CODE >106:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E95 text5 CODE >107:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E97 text5 CODE >108:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E9E text5 CODE >109:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+EA9 text5 CODE >110:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+EB4 text5 CODE >111:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+EEC text5 CODE >114:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+F4A text5 CODE >115:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+FE8 text5 CODE >116:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+FFF text5 CODE >120:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+14BF text4 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14BF text4 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14C2 text4 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14C6 text4 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14C8 text4 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14CA text4 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14CF text4 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14D3 text4 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14D4 text4 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14D9 text4 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14E1 text4 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14E5 text4 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14E6 text4 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14EB text4 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+14EF text4 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+1460 text3 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+1460 text3 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+1465 text3 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+1467 text3 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+1469 text3 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+146E text3 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+1472 text3 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+1473 text3 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+147B text3 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+147F text3 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+1484 text3 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+1488 text3 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+13E5 text2 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\isdigit.c
+13E7 text2 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\isdigit.c
+C9D text1 CODE >492:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+C9F text1 CODE >533:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CA3 text1 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CB6 text1 CODE >538:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CBA text1 CODE >541:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CC6 text1 CODE >542:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CC7 text1 CODE >546:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CC9 text1 CODE >548:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CCA text1 CODE >551:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CCB text1 CODE >579:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CCB text1 CODE >580:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CCC text1 CODE >581:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CD0 text1 CODE >551:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CD9 text1 CODE >597:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CE3 text1 CODE >598:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CE6 text1 CODE >600:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+CF7 text1 CODE >601:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D0A text1 CODE >602:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D14 text1 CODE >635:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D2C text1 CODE >1259:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D38 text1 CODE >1261:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D3A text1 CODE >1262:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D3E text1 CODE >1263:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D43 text1 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D49 text1 CODE >1306:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D60 text1 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D68 text1 CODE >1345:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D70 text1 CODE >1346:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D74 text1 CODE >1381:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D85 text1 CODE >1382:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D90 text1 CODE >1384:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D93 text1 CODE >1387:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D95 text1 CODE >1392:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+D99 text1 CODE >1393:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DA5 text1 CODE >1415:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DA9 text1 CODE >1417:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DB5 text1 CODE >1418:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DBA text1 CODE >1428:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DBE text1 CODE >1430:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DCA text1 CODE >1431:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DD2 text1 CODE >1438:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DD6 text1 CODE >1439:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DE2 text1 CODE >1472:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DE6 text1 CODE >1474:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+DED text1 CODE >1489:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+E15 text1 CODE >1524:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+E21 text1 CODE >1474:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+E22 text1 CODE >1538:C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+AE maintext CODE >147:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+AE maintext CODE >149:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+B3 maintext CODE >151:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+B5 maintext CODE >152:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+B6 maintext CODE >154:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+B8 maintext CODE >155:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+BA maintext CODE >156:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+BC maintext CODE >157:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+BE maintext CODE >158:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+C0 maintext CODE >159:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+C3 maintext CODE >161:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+C5 maintext CODE >162:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+C7 maintext CODE >163:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+C9 maintext CODE >164:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+CB maintext CODE >165:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+CD maintext CODE >166:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+CF maintext CODE >167:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+D0 maintext CODE >168:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+D2 maintext CODE >169:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+D4 maintext CODE >170:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+D5 maintext CODE >171:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+D6 maintext CODE >172:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+D7 maintext CODE >173:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+D8 maintext CODE >174:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+D9 maintext CODE >175:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+DB maintext CODE >176:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+DC maintext CODE >177:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+DE maintext CODE >178:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E0 maintext CODE >179:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E2 maintext CODE >180:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E4 maintext CODE >181:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E5 maintext CODE >182:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E7 maintext CODE >183:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+E9 maintext CODE >184:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+EB maintext CODE >185:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+ED maintext CODE >186:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+EF maintext CODE >187:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+F1 maintext CODE >188:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+F3 maintext CODE >189:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+F5 maintext CODE >192:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+F7 maintext CODE >193:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+F8 maintext CODE >195:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+F9 maintext CODE >197:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+FA maintext CODE >198:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+FB maintext CODE >199:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+FD maintext CODE >203:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+FF maintext CODE >204:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+100 maintext CODE >205:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+101 maintext CODE >206:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+105 maintext CODE >207:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+106 maintext CODE >208:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+108 maintext CODE >211:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+10A maintext CODE >212:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+10B maintext CODE >213:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+10D maintext CODE >214:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+10E maintext CODE >215:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+10F maintext CODE >218:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+112 maintext CODE >219:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+116 maintext CODE >220:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+11A maintext CODE >221:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+126 maintext CODE >224:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+128 maintext CODE >225:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+132 maintext CODE >229:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+135 maintext CODE >230:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+143 maintext CODE >231:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+175 maintext CODE >232:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+211 maintext CODE >233:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+26C maintext CODE >235:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+287 maintext CODE >236:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+28E maintext CODE >237:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+296 maintext CODE >241:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2AF maintext CODE >242:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2BB maintext CODE >243:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2D0 maintext CODE >244:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2DC maintext CODE >245:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2DF maintext CODE >246:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2E5 maintext CODE >248:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2E5 maintext CODE >249:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2E7 maintext CODE >250:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2EE maintext CODE >248:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2F3 maintext CODE >252:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2F5 maintext CODE >254:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2F6 maintext CODE >256:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2F6 maintext CODE >257:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2F8 maintext CODE >258:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+2FD maintext CODE >256:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+302 maintext CODE >260:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+304 maintext CODE >265:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+30A maintext CODE >267:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+318 maintext CODE >268:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+323 maintext CODE >269:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+325 maintext CODE >270:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+330 maintext CODE >271:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+332 maintext CODE >272:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+341 maintext CODE >273:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+343 maintext CODE >275:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+35F maintext CODE >276:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+361 maintext CODE >277:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+37D maintext CODE >278:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+37F maintext CODE >279:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+3B6 maintext CODE >280:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+3B8 maintext CODE >282:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+3D4 maintext CODE >283:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+3D6 maintext CODE >284:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+3F2 maintext CODE >285:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+3F4 maintext CODE >286:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+42B maintext CODE >287:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+42D maintext CODE >289:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+42E maintext CODE >290:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+446 maintext CODE >291:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+451 maintext CODE >292:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+453 maintext CODE >293:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+46F maintext CODE >294:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+471 maintext CODE >295:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+4A8 maintext CODE >296:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+4AA maintext CODE >298:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+4C6 maintext CODE >299:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+4C8 maintext CODE >300:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+4E4 maintext CODE >301:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+4E6 maintext CODE >302:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+51D maintext CODE >303:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+51F maintext CODE >306:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+53B maintext CODE >307:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+53D maintext CODE >309:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+589 maintext CODE >310:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+58B maintext CODE >312:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+61A maintext CODE >313:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+61C maintext CODE >315:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+61D maintext CODE >317:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+635 maintext CODE >318:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+651 maintext CODE >319:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+653 maintext CODE >320:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+66F maintext CODE >321:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+671 maintext CODE >322:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+6A8 maintext CODE >323:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+6AA maintext CODE >325:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+6C6 maintext CODE >326:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+6C8 maintext CODE >327:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+6E4 maintext CODE >328:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+6E6 maintext CODE >329:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+71D maintext CODE >330:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+71F maintext CODE >332:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+73B maintext CODE >333:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+73D maintext CODE >334:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+759 maintext CODE >335:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+75B maintext CODE >336:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+792 maintext CODE >337:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+794 maintext CODE >339:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+796 maintext CODE >341:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+799 maintext CODE >343:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+7A0 maintext CODE >344:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+7A9 maintext CODE >227:C:\Users\drasf\MPLABXProjects\Invernadero.X\main.c
+13CD clrtext CODE >1733:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13CD clrtext CODE >1734:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13CE clrtext CODE >1735:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13CE clrtext CODE >1736:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13CF clrtext CODE >1737:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D0 clrtext CODE >1738:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D1 clrtext CODE >1739:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D2 clrtext CODE >1740:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D3 inittext CODE >1687:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D3 inittext CODE >1688:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D4 inittext CODE >1689:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D4 inittext CODE >1690:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D5 inittext CODE >1691:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D6 inittext CODE >1692:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D7 inittext CODE >1693:C:\Users\drasf\AppData\Local\Temp\s6n4.
+13D8 inittext CODE >1694:C:\Users\drasf\AppData\Local\Temp\s6n4.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_I A3 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+_P AE 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+_T E0 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+_U 67 0 BANK0 1 bssBANK0 dist/default/production\Invernadero.X.production.obj
+_c E8 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+_t BC 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+___latbits 4 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___awdiv@counter 29 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___lwmod@counter 31 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+__Hspace_0 800C 0 ABS 0 - -
+__Hspace_1 159 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+_Lcd_Init 12DA 0 CODE 0 text21 dist/default/production\Invernadero.X.production.obj
+_Lcd_Out2 29E8 0 CODE 0 text19 dist/default/production\Invernadero.X.production.obj
+frexp@eptr 27 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__end_of_retardo 104A 0 CODE 0 text26 dist/default/production\Invernadero.X.production.obj
+___ftdiv@exp 50 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__size_of_leerref 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___awtoft@sign 31 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_tkelvin 120 0 BANK2 1 bssBANK2 dist/default/production\Invernadero.X.production.obj
+i1___awdiv@dividend 78 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+_Kp D7 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+_Ti 145 0 BANK2 1 dataBANK2 dist/default/production\Invernadero.X.production.obj
+_ZM E2 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+_r0 14B 0 BANK2 1 dataBANK2 dist/default/production\Invernadero.X.production.obj
+_vm A9 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+__end_of_Lcd_Init 1434 0 CODE 0 text21 dist/default/production\Invernadero.X.production.obj
+__end_of_Lcd_Out2 2A5E 0 CODE 0 text19 dist/default/production\Invernadero.X.production.obj
+?_log C5 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+__CFG_WDTCCS$SC 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_Iant A0 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+_Uant AC 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+_adc1 BA 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+_adc2 B8 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+_beta 148 0 BANK2 1 dataBANK2 dist/default/production\Invernadero.X.production.obj
+_main 15C 0 CODE 0 maintext dist/default/production\Invernadero.X.production.obj
+_raux DD 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+_rntc A6 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+log@x C5 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+___ftadd@f1 52 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftadd@f2 55 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+Lcd_Out2@x 27 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+Lcd_Out2@y 2A 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+start EE 0 CODE 0 init C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of___ftadd 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of___ftdiv 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of___lwmod 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__CFG_SCANE$available 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_OSCFRQbits 893 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+?___wmul 2D 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftdiv@f1 45 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftdiv@f2 42 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftdiv@f3 4D 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__Hpowerup 0 0 CODE 0 powerup -
+codigo@num 33 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+log@coeff 3000 0 STRCODE 0 stringtext2 dist/default/production\Invernadero.X.production.obj
+___ftge@ff1 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftge@ff2 27 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?_codigo 33 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_leerref$1432 D0 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+_leerref$1433 CD 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+__end_oflog@coeff 3036 0 STRCODE 0 stringtext2 dist/default/production\Invernadero.X.production.obj
+Lcd_Chr_CP@data 26 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_Lcd_Chr_CP 2ECE 0 CODE 0 text20 dist/default/production\Invernadero.X.production.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+_RC1STAbits 11D 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___awdiv@sign 2A 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+___ftmul@f1 32 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftmul@f2 35 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___wmul@multiplicand 2F 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_ADRESH 8D 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_ADRESL 8C 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___awdiv@dividend 26 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__size_of___awtoft 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__end_of_leerref 2000 0 CODE 0 text5 dist/default/production\Invernadero.X.production.obj
+__end_of___ftge 2AD6 0 CODE 0 text12 dist/default/production\Invernadero.X.production.obj
+__end_of___wmul 287C 0 CODE 0 text9 dist/default/production\Invernadero.X.production.obj
+___fttol@f1 5F 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__end_ofi1___awdiv 2BF2 0 CODE 0 text25 dist/default/production\Invernadero.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+__size_of_sprintf 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_BAUDCONbits 11F 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___awdiv@divisor 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__size_ofi1___awdiv 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___lwmod@divisor 2C 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__end_of___awdiv FF8 0 CODE 0 text18 dist/default/production\Invernadero.X.production.obj
+__CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+Lcd_Out2@buffer 28 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__end_of___ftadd 193A 0 CODE 0 text11 dist/default/production\Invernadero.X.production.obj
+__end_of___ftdiv 12DA 0 CODE 0 text15 dist/default/production\Invernadero.X.production.obj
+__end_of___ftmul 159C 0 CODE 0 text10 dist/default/production\Invernadero.X.production.obj
+__end_of___fttol 1188 0 CODE 0 text14 dist/default/production\Invernadero.X.production.obj
+retardo@to 70 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+__end_of___lwdiv 29E8 0 CODE 0 text4 dist/default/production\Invernadero.X.production.obj
+__end_of___lwmod 291A 0 CODE 0 text3 dist/default/production\Invernadero.X.production.obj
+__size_of_isdigit 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__end_of_codigo 297E 0 CODE 0 text17 dist/default/production\Invernadero.X.production.obj
+?_eval_poly 5F 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_dpowers 3072 0 STRCODE 0 stringtext1 dist/default/production\Invernadero.X.production.obj
+__size_ofi1___wmul 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__end_of_Lcd_Chr_CP 3000 0 CODE 0 text20 dist/default/production\Invernadero.X.production.obj
+___lwdiv@quotient 2A 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_interrupcio 8 0 CODE 0 intentry dist/default/production\Invernadero.X.production.obj
+__size_of_frexp 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+i1___awdiv 2B4E 0 CODE 0 text25 dist/default/production\Invernadero.X.production.obj
+___lwmod@dividend 2E 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_WPUCbits 1F4F 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_WPUDbits 1F5A 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+start_initialization F2 0 CODE 0 cinit dist/default/production\Invernadero.X.production.obj
+__CFG_WDTCPS$WDTCPS_31 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___awtoft 287C 0 CODE 0 text13 dist/default/production\Invernadero.X.production.obj
+_TRISAbits 11 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_TRISBbits 12 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_TRISCbits 13 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_TRISDbits 14 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_RB2PPS 1F1A 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_ADREFbits 9A 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__end_of___awtoft 28C0 0 CODE 0 text13 dist/default/production\Invernadero.X.production.obj
+clear_ram0 279A 0 CODE 0 clrtext dist/default/production\Invernadero.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__pcstackBANK1 C2 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+__pcstackBANK2 151 0 BANK2 1 cstackBANK2 dist/default/production\Invernadero.X.production.obj
+___fttol@exp1 C7 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+___fttol@lval C3 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+_TX1REG 11A 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___ftpack 2BF2 0 CODE 0 text16 dist/default/production\Invernadero.X.production.obj
+_retardo 1004 0 CODE 0 text26 dist/default/production\Invernadero.X.production.obj
+___ftpack@arg 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftpack@exp 27 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+i1___awdiv@counter 20 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+i1___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+i1___wmul 280E 0 CODE 0 text24 dist/default/production\Invernadero.X.production.obj
+__end_of___ftpack 2CBC 0 CODE 0 text16 dist/default/production\Invernadero.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 15C 0 CODE 0 cinit -
+i1___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr32 0 0 ABS 0 sfr32 -
+__Hsfr33 0 0 ABS 0 sfr33 -
+__Hsfr34 0 0 ABS 0 sfr34 -
+__Hsfr35 0 0 ABS 0 sfr35 -
+__Hsfr36 0 0 ABS 0 sfr36 -
+__Hsfr37 0 0 ABS 0 sfr37 -
+__Hsfr38 0 0 ABS 0 sfr38 -
+__Hsfr39 0 0 ABS 0 sfr39 -
+__Hsfr40 0 0 ABS 0 sfr40 -
+__Hsfr41 0 0 ABS 0 sfr41 -
+__Hsfr42 0 0 ABS 0 sfr42 -
+__Hsfr43 0 0 ABS 0 sfr43 -
+__Hsfr44 0 0 ABS 0 sfr44 -
+__Hsfr45 0 0 ABS 0 sfr45 -
+__Hsfr46 0 0 ABS 0 sfr46 -
+__Hsfr47 0 0 ABS 0 sfr47 -
+__Hsfr48 0 0 ABS 0 sfr48 -
+__Hsfr49 0 0 ABS 0 sfr49 -
+__Hsfr50 0 0 ABS 0 sfr50 -
+__Hsfr51 0 0 ABS 0 sfr51 -
+__Hsfr52 0 0 ABS 0 sfr52 -
+__Hsfr53 0 0 ABS 0 sfr53 -
+__Hsfr54 0 0 ABS 0 sfr54 -
+__Hsfr55 0 0 ABS 0 sfr55 -
+__Hsfr56 0 0 ABS 0 sfr56 -
+__Hsfr57 0 0 ABS 0 sfr57 -
+__Hsfr58 0 0 ABS 0 sfr58 -
+__Hsfr59 0 0 ABS 0 sfr59 -
+__Hsfr60 0 0 ABS 0 sfr60 -
+__Hsfr61 0 0 ABS 0 sfr61 -
+__Hsfr62 0 0 ABS 0 sfr62 -
+__Hsfr63 0 0 ABS 0 sfr63 -
+__Hstack 0 0 STACK 2 stack -
+_main$1434 151 0 BANK2 1 cstackBANK2 dist/default/production\Invernadero.X.production.obj
+_main$1435 154 0 BANK2 1 cstackBANK2 dist/default/production\Invernadero.X.production.obj
+_main$1436 157 0 BANK2 1 cstackBANK2 dist/default/production\Invernadero.X.production.obj
+___lwdiv@counter 29 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 ABS 0 bank13 -
+__Hbank14 0 0 ABS 0 bank14 -
+__Hbank15 0 0 ABS 0 bank15 -
+__Hbank16 0 0 ABS 0 bank16 -
+__Hbank17 0 0 ABS 0 bank17 -
+__Hbank18 0 0 ABS 0 bank18 -
+__Hbank19 0 0 ABS 0 bank19 -
+__Hbank20 0 0 ABS 0 bank20 -
+__Hbank21 0 0 ABS 0 bank21 -
+__Hbank22 0 0 ABS 0 bank22 -
+__Hbank23 0 0 ABS 0 bank23 -
+__Hbank24 0 0 ABS 0 bank24 -
+__Hbank25 0 0 ABS 0 bank25 -
+__Hbank26 0 0 ABS 0 bank26 -
+__Hbank27 0 0 ABS 0 bank27 -
+__Hbank28 0 0 ABS 0 bank28 -
+__Hbank29 0 0 ABS 0 bank29 -
+__Hbank30 0 0 ABS 0 bank30 -
+__Hbank31 0 0 ABS 0 bank31 -
+__Hbank32 0 0 ABS 0 bank32 -
+__Hbank33 0 0 ABS 0 bank33 -
+__Hbank34 0 0 ABS 0 bank34 -
+__Hbank35 0 0 ABS 0 bank35 -
+__Hbank36 0 0 ABS 0 bank36 -
+__Hbank37 0 0 ABS 0 bank37 -
+__Hbank38 0 0 ABS 0 bank38 -
+__Hbank39 0 0 ABS 0 bank39 -
+__Hbank40 0 0 ABS 0 bank40 -
+__Hbank41 0 0 ABS 0 bank41 -
+__Hbank42 0 0 ABS 0 bank42 -
+__Hbank43 0 0 ABS 0 bank43 -
+__Hbank44 0 0 ABS 0 bank44 -
+__Hbank45 0 0 ABS 0 bank45 -
+__Hbank46 0 0 ABS 0 bank46 -
+__Hbank47 0 0 ABS 0 bank47 -
+__Hbank48 0 0 ABS 0 bank48 -
+__Hbank49 0 0 ABS 0 bank49 -
+__Hbank50 0 0 ABS 0 bank50 -
+__Hbank51 0 0 BANK51 1 bank51 -
+__Hbank52 0 0 BANK52 1 bank52 -
+__Hbank53 0 0 BANK53 1 bank53 -
+__Hbank54 0 0 BANK54 1 bank54 -
+__Hbank55 0 0 BANK55 1 bank55 -
+__Hbank56 0 0 BANK56 1 bank56 -
+__Hbank57 0 0 BANK57 1 bank57 -
+__Hbank58 0 0 BANK58 1 bank58 -
+__Hbank59 0 0 BANK59 1 bank59 -
+__Hbank60 0 0 BANK60 1 bank60 -
+__Hbank61 0 0 BANK61 1 bank61 -
+__Hbank62 0 0 BANK62 1 bank62 -
+__Hbank63 0 0 BANK63 1 bank63 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__end_of_sprintf 1C52 0 CODE 0 text1 dist/default/production\Invernadero.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10018 0 CONFIG 0 config -
+__end_ofi1___wmul 2844 0 CODE 0 text24 dist/default/production\Invernadero.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__end_of_isdigit 27E8 0 CODE 0 text2 dist/default/production\Invernadero.X.production.obj
+__Lcinit F2 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+___ftadd@exp1 5E 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftadd@exp2 5D 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftadd@sign 5C 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr32 0 0 ABS 0 sfr32 -
+__Lsfr33 0 0 ABS 0 sfr33 -
+__Lsfr34 0 0 ABS 0 sfr34 -
+__Lsfr35 0 0 ABS 0 sfr35 -
+__Lsfr36 0 0 ABS 0 sfr36 -
+__Lsfr37 0 0 ABS 0 sfr37 -
+__Lsfr38 0 0 ABS 0 sfr38 -
+__Lsfr39 0 0 ABS 0 sfr39 -
+__Lsfr40 0 0 ABS 0 sfr40 -
+__Lsfr41 0 0 ABS 0 sfr41 -
+__Lsfr42 0 0 ABS 0 sfr42 -
+__Lsfr43 0 0 ABS 0 sfr43 -
+__Lsfr44 0 0 ABS 0 sfr44 -
+__Lsfr45 0 0 ABS 0 sfr45 -
+__Lsfr46 0 0 ABS 0 sfr46 -
+__Lsfr47 0 0 ABS 0 sfr47 -
+__Lsfr48 0 0 ABS 0 sfr48 -
+__Lsfr49 0 0 ABS 0 sfr49 -
+__Lsfr50 0 0 ABS 0 sfr50 -
+__Lsfr51 0 0 ABS 0 sfr51 -
+__Lsfr52 0 0 ABS 0 sfr52 -
+__Lsfr53 0 0 ABS 0 sfr53 -
+__Lsfr54 0 0 ABS 0 sfr54 -
+__Lsfr55 0 0 ABS 0 sfr55 -
+__Lsfr56 0 0 ABS 0 sfr56 -
+__Lsfr57 0 0 ABS 0 sfr57 -
+__Lsfr58 0 0 ABS 0 sfr58 -
+__Lsfr59 0 0 ABS 0 sfr59 -
+__Lsfr60 0 0 ABS 0 sfr60 -
+__Lsfr61 0 0 ABS 0 sfr61 -
+__Lsfr62 0 0 ABS 0 sfr62 -
+__Lsfr63 0 0 ABS 0 sfr63 -
+__Lstack 0 0 STACK 2 stack -
+init_ram 27A6 0 CODE 0 inittext dist/default/production\Invernadero.X.production.obj
+__Linittext 0 0 ABS 0 inittext -
+_PORTAbits C 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_PORTCbits E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_PORTDbits F 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_INTCONbits B 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit EE 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit EE 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 3072 0 STRCODE 0 stringtext1 dist/default/production\Invernadero.X.production.obj
+__pstringtext2 3000 0 STRCODE 0 stringtext2 dist/default/production\Invernadero.X.production.obj
+__pstringtext3 3056 0 STRCODE 0 stringtext3 dist/default/production\Invernadero.X.production.obj
+__pstringtext4 0 0 STRCODE 0 stringtext4 dist/default/production\Invernadero.X.production.obj
+___ftge 2A5E 0 CODE 0 text12 dist/default/production\Invernadero.X.production.obj
+___wmul 2844 0 CODE 0 text9 dist/default/production\Invernadero.X.production.obj
+__CFG_WDTCWS$WDTCWS_7 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 -
+int$flags 7E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__S0 800C 0 ABS 0 - -
+__S1 159 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_log 159C 0 CODE 0 text6 dist/default/production\Invernadero.X.production.obj
+_vcc DA 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+_angulo BE 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+i1___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+_codigo 291A 0 CODE 0 text17 dist/default/production\Invernadero.X.production.obj
+eval_poly@res C2 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+___awtoft@c 2C 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+sprintf@val 3F 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__end_of_log 174E 0 CODE 0 text6 dist/default/production\Invernadero.X.production.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Lintentry 8 0 CODE 0 intentry -
+_energia B6 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+__pdataBANK0 69 0 BANK0 1 dataBANK0 dist/default/production\Invernadero.X.production.obj
+__pdataBANK1 D7 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+__pdataBANK2 145 0 BANK2 1 dataBANK2 dist/default/production\Invernadero.X.production.obj
+__end_of_Lcd_Cmd 2ECE 0 CODE 0 text22 dist/default/production\Invernadero.X.production.obj
+__size_of___ftge 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+_leerref 1C52 0 CODE 0 text5 dist/default/production\Invernadero.X.production.obj
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__Lstringtext3 0 0 ABS 0 stringtext3 -
+__Lstringtext4 0 0 ABS 0 stringtext4 -
+?___awtoft 2C 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+i1___awdiv@quotient 22 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_limite 69 0 BANK0 1 dataBANK0 dist/default/production\Invernadero.X.production.obj
+__size_of_Lcd_Chr_CP 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_PIE0bits 716 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_IOCBFbits 1F4A 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_IOCBNbits 1F49 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+sprintf@flag 41 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+sprintf@prec 3E 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__ptext10 1434 0 CODE 0 text10 dist/default/production\Invernadero.X.production.obj
+__ptext11 174E 0 CODE 0 text11 dist/default/production\Invernadero.X.production.obj
+__ptext12 2A5E 0 CODE 0 text12 dist/default/production\Invernadero.X.production.obj
+__ptext13 287C 0 CODE 0 text13 dist/default/production\Invernadero.X.production.obj
+__ptext14 104A 0 CODE 0 text14 dist/default/production\Invernadero.X.production.obj
+__ptext15 1188 0 CODE 0 text15 dist/default/production\Invernadero.X.production.obj
+__ptext16 2BF2 0 CODE 0 text16 dist/default/production\Invernadero.X.production.obj
+__ptext17 291A 0 CODE 0 text17 dist/default/production\Invernadero.X.production.obj
+__ptext18 F54 0 CODE 0 text18 dist/default/production\Invernadero.X.production.obj
+__ptext19 29E8 0 CODE 0 text19 dist/default/production\Invernadero.X.production.obj
+__ptext20 2ECE 0 CODE 0 text20 dist/default/production\Invernadero.X.production.obj
+__ptext21 12DA 0 CODE 0 text21 dist/default/production\Invernadero.X.production.obj
+__ptext22 2DA4 0 CODE 0 text22 dist/default/production\Invernadero.X.production.obj
+__ptext24 280E 0 CODE 0 text24 dist/default/production\Invernadero.X.production.obj
+__ptext25 2B4E 0 CODE 0 text25 dist/default/production\Invernadero.X.production.obj
+__ptext26 1004 0 CODE 0 text26 dist/default/production\Invernadero.X.production.obj
+___awdiv F54 0 CODE 0 text18 dist/default/production\Invernadero.X.production.obj
+___ftadd 174E 0 CODE 0 text11 dist/default/production\Invernadero.X.production.obj
+___ftdiv 1188 0 CODE 0 text15 dist/default/production\Invernadero.X.production.obj
+___ftmul 1434 0 CODE 0 text10 dist/default/production\Invernadero.X.production.obj
+___fttol 104A 0 CODE 0 text14 dist/default/production\Invernadero.X.production.obj
+__size_of_codigo 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___lwdiv 297E 0 CODE 0 text4 dist/default/production\Invernadero.X.production.obj
+___lwmod 28C0 0 CODE 0 text3 dist/default/production\Invernadero.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 ABS 0 bank13 -
+__Lbank14 0 0 ABS 0 bank14 -
+__Lbank15 0 0 ABS 0 bank15 -
+__Lbank16 0 0 ABS 0 bank16 -
+__Lbank17 0 0 ABS 0 bank17 -
+__Lbank18 0 0 ABS 0 bank18 -
+__Lbank19 0 0 ABS 0 bank19 -
+__Lbank20 0 0 ABS 0 bank20 -
+__Lbank21 0 0 ABS 0 bank21 -
+__Lbank22 0 0 ABS 0 bank22 -
+__Lbank23 0 0 ABS 0 bank23 -
+__Lbank24 0 0 ABS 0 bank24 -
+__Lbank25 0 0 ABS 0 bank25 -
+__Lbank26 0 0 ABS 0 bank26 -
+__Lbank27 0 0 ABS 0 bank27 -
+__Lbank28 0 0 ABS 0 bank28 -
+__Lbank29 0 0 ABS 0 bank29 -
+__Lbank30 0 0 ABS 0 bank30 -
+__Lbank31 0 0 ABS 0 bank31 -
+__Lbank32 0 0 ABS 0 bank32 -
+__Lbank33 0 0 ABS 0 bank33 -
+__Lbank34 0 0 ABS 0 bank34 -
+__Lbank35 0 0 ABS 0 bank35 -
+__Lbank36 0 0 ABS 0 bank36 -
+__Lbank37 0 0 ABS 0 bank37 -
+__Lbank38 0 0 ABS 0 bank38 -
+__Lbank39 0 0 ABS 0 bank39 -
+__Lbank40 0 0 ABS 0 bank40 -
+__Lbank41 0 0 ABS 0 bank41 -
+__Lbank42 0 0 ABS 0 bank42 -
+__Lbank43 0 0 ABS 0 bank43 -
+__Lbank44 0 0 ABS 0 bank44 -
+__Lbank45 0 0 ABS 0 bank45 -
+__Lbank46 0 0 ABS 0 bank46 -
+__Lbank47 0 0 ABS 0 bank47 -
+__Lbank48 0 0 ABS 0 bank48 -
+__Lbank49 0 0 ABS 0 bank49 -
+__Lbank50 0 0 ABS 0 bank50 -
+__Lbank51 0 0 BANK51 1 bank51 -
+__Lbank52 0 0 BANK52 1 bank52 -
+__Lbank53 0 0 BANK53 1 bank53 -
+__Lbank54 0 0 BANK54 1 bank54 -
+__Lbank55 0 0 BANK55 1 bank55 -
+__Lbank56 0 0 BANK56 1 bank56 -
+__Lbank57 0 0 BANK57 1 bank57 -
+__Lbank58 0 0 BANK58 1 bank58 -
+__Lbank59 0 0 BANK59 1 bank59 -
+__Lbank60 0 0 BANK60 1 bank60 -
+__Lbank61 0 0 BANK61 1 bank61 -
+__Lbank62 0 0 BANK62 1 bank62 -
+__Lbank63 0 0 BANK63 1 bank63 -
+__pmaintext 15C 0 CODE 0 maintext dist/default/production\Invernadero.X.production.obj
+__Lbigram 0 0 ABS 0 bigram -
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+?___ftpack 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+i1___awdiv@divisor 76 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Hinittext 0 0 ABS 0 inittext -
+___wmul@multiplier 2D 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_LATAbits 16 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_LATDbits 19 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+i1___awdiv@sign 21 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___lwdiv@divisor 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?i1___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+stackhi 2FEF 0 ABS 0 - C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+stacklo 20D9 0 ABS 0 - C:\Users\drasf\AppData\Local\Temp\s6n4.obj
+_contadorenviar E4 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+__end_of_eval_poly 2DA4 0 CODE 0 text8 dist/default/production\Invernadero.X.production.obj
+_ADCON0bits 93 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__end_of_interrupcio EE 0 CODE 0 intentry dist/default/production\Invernadero.X.production.obj
+__size_of_eval_poly 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+___ftmul@cntr 40 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__CFG_LPBOREN$OFF 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___ftmul@sign 41 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 -
+_PIR0bits 70C 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Lend_init EE 0 CODE 0 end_init -
+__CFG_LVP$ON 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__CFG_CSWEN$ON 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_buffer1 135 0 BANK2 1 bssBANK2 dist/default/production\Invernadero.X.production.obj
+_buffer2 125 0 BANK2 1 bssBANK2 dist/default/production\Invernadero.X.production.obj
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__CFG_ZCD$OFF 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+end_of_initialization 154 0 CODE 0 cinit dist/default/production\Invernadero.X.production.obj
+__Hintentry EE 0 CODE 0 intentry -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_referencia B4 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+__CFG_RSTOSC$HFINT32 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_TX1STAbits 11E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 2B 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_eval_poly 2CBC 0 CODE 0 text8 dist/default/production\Invernadero.X.production.obj
+?___awdiv 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___lwdiv@dividend 26 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?___ftadd 52 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?___ftdiv 42 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?___ftmul 32 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?___fttol 5F 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?___lwdiv 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?___lwmod 2C 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__Hreset_vec 4 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+__ptext1 193A 0 CODE 0 text1 dist/default/production\Invernadero.X.production.obj
+__ptext2 27CA 0 CODE 0 text2 dist/default/production\Invernadero.X.production.obj
+__ptext3 28C0 0 CODE 0 text3 dist/default/production\Invernadero.X.production.obj
+__ptext4 297E 0 CODE 0 text4 dist/default/production\Invernadero.X.production.obj
+__ptext5 1C52 0 CODE 0 text5 dist/default/production\Invernadero.X.production.obj
+__ptext6 159C 0 CODE 0 text6 dist/default/production\Invernadero.X.production.obj
+__ptext7 2AD6 0 CODE 0 text7 dist/default/production\Invernadero.X.production.obj
+__ptext8 2CBC 0 CODE 0 text8 dist/default/production\Invernadero.X.production.obj
+__ptext9 2844 0 CODE 0 text9 dist/default/production\Invernadero.X.production.obj
+_sprintf 193A 0 CODE 0 text1 dist/default/production\Invernadero.X.production.obj
+Lcd_Out2@data 2B 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+Lcd_Cmd@data 26 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+sprintf@ap 3D 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+sprintf@sp 44 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_isdigit 27CA 0 CODE 0 text2 dist/default/production\Invernadero.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__Hstringtext3 0 0 ABS 0 stringtext3 -
+__Hstringtext4 0 0 ABS 0 stringtext4 -
+eval_poly@d 62 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+eval_poly@n 64 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+eval_poly@x 5F 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?i1___awdiv 76 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___ftmul@exp 3C 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__end_of__initialization 154 0 CODE 0 cinit dist/default/production\Invernadero.X.production.obj
+__size_of_retardo 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_auxcodigo B2 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+frexp@value 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+?_frexp 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__pidataBANK0 FF8 0 CODE 0 idataBANK0 dist/default/production\Invernadero.X.production.obj
+__pidataBANK1 27E8 0 CODE 0 idataBANK1 dist/default/production\Invernadero.X.production.obj
+__pidataBANK2 27B2 0 CODE 0 idataBANK2 dist/default/production\Invernadero.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+___ftpack@sign 28 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__CFG_PWRTE$ON 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\Invernadero.X.production.obj
+___ftdiv@cntr 4C 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+___ftdiv@sign 51 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_TXSTAbits 11E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+Lcd_Init@data 28 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__size_of_Lcd_Init 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__size_of_Lcd_Out2 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Hend_init F2 0 CODE 0 end_init -
+sprintf@c 45 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+sprintf@f 33 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+__end_of_main F54 0 CODE 0 maintext dist/default/production\Invernadero.X.production.obj
+isdigit@c 25 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_ADPCH 9E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__end_of_dpowers 3086 0 STRCODE 0 stringtext1 dist/default/production\Invernadero.X.production.obj
+log@exponent C8 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+_IOCBF 1F4A 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__end_of_frexp 2B4E 0 CODE 0 text7 dist/default/production\Invernadero.X.production.obj
+?_sprintf 33 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_isdigit$1160 24 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_PORTA C 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_PORTB D 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_PORTC E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_PORTD F 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_SPBRG 11B 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_errno 123 0 BANK2 1 bssBANK2 dist/default/production\Invernadero.X.production.obj
+_error B0 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+_frexp 2AD6 0 CODE 0 text7 dist/default/production\Invernadero.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_temp0 14E 0 BANK2 1 dataBANK2 dist/default/production\Invernadero.X.production.obj
+_temperatura E6 0 BANK1 1 dataBANK1 dist/default/production\Invernadero.X.production.obj
+__pintentry 8 0 CODE 0 intentry dist/default/production\Invernadero.X.production.obj
+___fttol@sign1 C2 0 BANK1 1 cstackBANK1 dist/default/production\Invernadero.X.production.obj
+sprintf@width 42 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_Lcd_Cmd 2DA4 0 CODE 0 text22 dist/default/production\Invernadero.X.production.obj
+__size_of_log 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__CFG_PPS1WAY$ON 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__initialization F2 0 CODE 0 cinit dist/default/production\Invernadero.X.production.obj
+__pbssBANK0 67 0 BANK0 1 bssBANK0 dist/default/production\Invernadero.X.production.obj
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/default/production\Invernadero.X.production.obj
+__size_of_interrupcio 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+___wmul@product 31 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+_ANSELAbits 1F38 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_ANSELBbits 1F43 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_ANSELCbits 1F4E 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_ANSELDbits 1F59 0 ABS 0 - dist/default/production\Invernadero.X.production.obj
+_auxboton C0 0 BANK1 1 bssBANK1 dist/default/production\Invernadero.X.production.obj
+__pswtext1 2000 0 CONST 0 swtext1 dist/default/production\Invernadero.X.production.obj
+___ftmul@f3_as_product 3D 0 BANK0 1 cstackBANK0 dist/default/production\Invernadero.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 C9D 193A 18C 2
+text2 0 13E5 27CA F 2
+text3 0 1460 28C0 2D 2
+text4 0 14BF 297E 35 2
+text5 0 E29 1C52 1D7 2
+text6 0 ACE 159C D9 2
+text7 0 156B 2AD6 3C 2
+text8 0 165E 2CBC 74 2
+text9 0 1422 2844 1C 2
+text10 0 A1A 1434 B4 2
+text11 0 BA7 174E F6 2
+text12 0 152F 2A5E 3C 2
+text13 0 143E 287C 22 2
+text14 0 825 104A 9F 2
+text15 0 8C4 1188 A9 2
+text16 0 15F9 2BF2 65 2
+text17 0 148D 291A 32 2
+text19 0 14F4 29E8 3B 2
+text20 0 1767 2ECE 99 2
+text21 0 96D 12DA AD 2
+text22 0 16D2 2DA4 95 2
+text24 0 1407 280E 1B 2
+text25 0 15A7 2B4E 52 2
+text26 0 802 1004 23 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 4B 1
+inittext 0 13D3 27A6 6 2
+stringtext2 0 1800 3000 43 2
+intentry 0 4 8 7FA 2
+reset_vec 0 0 0 2 2
+bssBANK1 1 A0 A0 4A 1
+bssBANK2 1 120 120 39 1
+idataBANK1 0 13F4 27E8 13 2
+idataBANK2 0 13D9 27B2 C 2
+swtext1 0 1000 2000 14 2
+clrtext 0 13CD 279A 6 2
+config 0 8007 1000E 5 2
