@@ -1,0 +1,132 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18877 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"15 C:\Users\drasf\MPLABXProjects\ComunicacionRx.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"23
+[v _main main `(i  1 e 2 0 ]
+[s S162 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"368 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f18877.h
+[u S167 . 1 `S162 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES167  1 e 1 @11 ]
+"450
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"512
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"736
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"798
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+[s S20 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1033
+[u S29 . 1 `S20 1 . 1 0 ]
+[v _LATBbits LATBbits `VES29  1 e 1 @23 ]
+"3762
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"3882
+[v _SPBRG SPBRG `VEuc  1 e 1 @283 ]
+[s S81 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4027
+[u S90 . 1 `S81 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES90  1 e 1 @285 ]
+[s S102 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4207
+[u S111 . 1 `S102 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES111  1 e 1 @286 ]
+[s S123 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4395
+[u S132 . 1 `S123 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES132  1 e 1 @287 ]
+[s S41 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+"21490
+[u S48 . 1 `S41 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES48  1 e 1 @1807 ]
+[s S145 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+"21912
+[u S152 . 1 `S145 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES152  1 e 1 @1817 ]
+[s S58 . 1 `uc 1 HFFRQ 1 0 :3:0 
+]
+"23912
+[s S60 . 1 `uc 1 HFFRQ0 1 0 :1:0 
+`uc 1 HFFRQ1 1 0 :1:1 
+`uc 1 HFFRQ2 1 0 :1:2 
+]
+[u S64 . 1 `S58 1 . 1 0 `S60 1 . 1 0 ]
+[v _OSCFRQbits OSCFRQbits `VES64  1 e 1 @2195 ]
+"31748
+[v _RXPPS RXPPS `VEuc  1 e 1 @7883 ]
+"34222
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"34842
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"14 C:\Users\drasf\MPLABXProjects\ComunicacionRx.X\main.c
+[v _dato dato `uc  1 e 1 0 ]
+"23
+[v _main main `(i  1 e 2 0 ]
+{
+"57
+} 0
+"15
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"22
+} 0
