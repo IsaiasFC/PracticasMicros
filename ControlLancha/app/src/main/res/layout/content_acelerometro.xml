@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dras.controllancha.AcelerometroActivity"
+    tools:showIn="@layout/activity_acelerometro">
+<LinearLayout
+    android:background="@color/colorPrimaryLight"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/RL_LEFT"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/RL_RIGHT"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+    </RelativeLayout>
+</LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+        <ImageButton
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:background="#80FF5252"
+            android:src="@drawable/ic_up"
+            android:id="@+id/BTN_UP"
+            android:layout_width="80sp"
+            android:layout_height="match_parent" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10sp"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/TV_grados"
+            android:text="10"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10sp"
+            android:background="@android:color/transparent"/>
+        <ImageButton
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_horizontal"
+            android:background="#80FF5252"
+            android:src="@drawable/ic_down"
+            android:id="@+id/BTN_DOWN"
+            android:layout_width="80sp"
+            android:layout_height="match_parent" />
+
+</RelativeLayout>
+
+
+
+</FrameLayout>
